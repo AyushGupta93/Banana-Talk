@@ -7,7 +7,7 @@
 :root {
     --primary-color: #F2C94C;
     --black: #333333;
-    --width-break: 600px
+    --width-break: 600px;
 }
 
 body {
@@ -38,12 +38,12 @@ textarea {
 }
 
 button {
-    padding: 1rem 2rem;
     background-color: var(--primary-color);
-    font-family: 'Kalam', cursive;
     border: none;
-    font-size: large;
     margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
 }
 
 #translate-output {
@@ -56,12 +56,12 @@ button {
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
     background-color: var(--primary-color);
     text-align: center;
-    padding: 1rem;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
 }
 
 footer p {
