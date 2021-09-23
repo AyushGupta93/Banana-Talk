@@ -25,6 +25,7 @@ main {
     margin: auto;
     padding: 1rem;
     max-width: var(--width-break);
+    margin-bottom: 1.5rem;
 }
 
 textarea {
@@ -56,6 +57,7 @@ button {
 }
 
 footer {
+    margin-top: 1.5rem;
     position: fixed;
     bottom: 0;
     width: 100%;
