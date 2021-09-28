@@ -1,6 +1,6 @@
 var btnTranslate = document.querySelector("#btn-translate");
-var textInput = document.querySelector("#txt-input");
-var outputDiv = document.querySelector("#output");
+var textInput = document.querySelector("#translate-input");
+var outputDiv = document.querySelector("#translate-output");
 
 // var serverURL="https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
 
